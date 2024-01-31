@@ -1,0 +1,31 @@
+.c-row {
+  position: relative;
+  width: 100%; 
+}
+
+.baseIngredientDropdown {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  width: 50%;
+  top: 38px;
+  right: 0;
+  flex-direction: column;
+  border: 1px solid #5c3802;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.baseIngredientOption {
+  padding: 5px;
+}
+
+.baseIngredientOption:hover {
+  background-color: #b08968;
+  color: white;
+}
+
+.baseIngredientOption + .baseIngredientOption {
+  border-top: 1px solid #5c3802;
+  width: 100%;
+}

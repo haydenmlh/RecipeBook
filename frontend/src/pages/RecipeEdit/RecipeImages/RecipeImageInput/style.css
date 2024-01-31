@@ -1,0 +1,17 @@
+.recipe-image-button {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  background-color: rgb(230, 204, 178);
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.recipe-image {
+  margin-right: 10px;
+}

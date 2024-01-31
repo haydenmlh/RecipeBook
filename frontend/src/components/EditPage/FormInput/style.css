@@ -1,0 +1,15 @@
+.error{
+    color: rgba(255, 0, 0, 0.727) !important;
+    padding: 5px !important;
+    position: relative; 
+    margin-top: 5px;
+    display: none;
+}
+
+input:invalid[focused="true"]{
+    border: 2px solid rgba(255, 0, 0, 0.727);
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}

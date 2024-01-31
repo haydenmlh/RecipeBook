@@ -1,0 +1,15 @@
+.light-button {
+  color: #5c3802!important;
+  background-color: transparent!important;
+  border-color: #5c3802!important;
+} 
+
+.dark-button {
+  color: #ffffff!important;
+  background-color: #5c3802!important;
+  border-color: #5c3802!important;
+} 
+
+.my-recipes-dropdown{
+  margin-right: 10px;
+}

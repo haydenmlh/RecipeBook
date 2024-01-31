@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+  body {
+    background-image: url("../Common/img/background.png");
+  }
+
+  .navbar {
+    background-color: rgb(248, 249, 250);
+    
+    justify-content: center;
+  }
+
+  .container-fluid {
+    width: min(100%, 1400px)!important;
+  }
+  
+  .popular-recipes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 286px);
+    grid-gap: 1rem;
+    justify-content: space-around;
+    padding: 10px, 10px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  .fa-heart {
+    color: red;
+  }
+  
+  .edit-profile-img{
+    padding-bottom: 10px;
+  }
+
+  .title-text {
+    font-family:'Courgette', cursive; 
+    color: #5c3802;
+  }
+
+  .profile-img-wrapper{
+    width: 100%;
+
+  }

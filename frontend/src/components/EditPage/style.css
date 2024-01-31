@@ -1,0 +1,22 @@
+.edit-title{
+    background: 
+    linear-gradient(to bottom right, #5c3802 50%, transparent 20%) no-repeat bottom,
+    /* bottom part */
+    linear-gradient(0deg, #5c3802, #5c3802) no-repeat top;
+    /* top portion */
+    color: white;
+    text-align: left;
+    height: 100px;
+    padding-bottom: 3em;
+    background-size: 100% 6em, 100% calc(100% - 6em);
+    text-align: left;
+}
+
+.edit-title div{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 20px;
+}

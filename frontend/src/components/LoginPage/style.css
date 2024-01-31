@@ -1,0 +1,73 @@
+.login-title{
+    background: 
+    linear-gradient(to bottom right, #5c3802 50%, transparent 20%) no-repeat bottom,
+    /* bottom part */
+    linear-gradient(0deg, #5c3802, #5c3802) no-repeat top;
+    /* top portion */
+    color: white;
+    text-align: left;
+    height: 90px;
+    padding-bottom: 3em;
+    background-size: 100% 6em, 100% calc(100% - 6em);
+    text-align: left;
+}
+
+.login-title div{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+a {
+    color: #5c3802 !important;
+}
+
+a:hover {
+    color: #2a1900 !important;
+}
+
+.container-lg{
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.btn-container{
+    text-align: center;
+    padding: 5px;
+}
+
+#login-button{
+    color: #fff !important;
+    background-color: #5c3802 !important;
+    border-color: #5c3802 !important;
+    margin-top: 10px;
+    width: 350px;
+    font-size: larger;
+}
+
+#login-button:hover{
+    color: #fff;
+    background-color: #392201;
+    border-color: #2a1900;
+}
+
+#login-button:not(:disabled):not(.disabled):active:focus, #login-button:not(:disabled):not(.disabled).active:focus, .show > #login-button.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(92, 56, 2, 0.5);
+}
+
+#logo-img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.login-error{
+    color: rgba(255, 0, 0, 0.727) !important;
+    padding: 10px !important;
+    position: relative; 
+    margin-top: 5px;
+    display: inline;
+}

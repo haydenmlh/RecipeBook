@@ -1,0 +1,82 @@
+.signup-title{
+    background: 
+    linear-gradient(to bottom right, #5c3802 50%, transparent 20%) no-repeat bottom,
+    /* bottom part */
+    linear-gradient(0deg, #5c3802, #5c3802) no-repeat top;
+    /* top portion */
+    color: white;
+    text-align: left;
+    height: 100px;
+    padding-bottom: 3em;
+    background-size: 100% 6em, 100% calc(100% - 6em);
+    text-align: left;
+}
+
+.signup-title div{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+a {
+    color: #5c3802 !important;
+}
+
+a:hover {
+    color: #2a1900 !important;
+}
+
+.already-login{
+    margin-top: 10px;
+}
+
+.container-lg{
+    padding: 10px;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+#register-button{
+    color: #fff !important;
+    background-color: #5c3802 !important;
+    border-color: #5c3802 !important;
+    margin-top: 10px;
+    width: 350px;
+    font-size: larger;
+}
+
+#avatar-button {
+    color: #fff;
+    background-color: #5c3802;
+    border-color: #5c3802;
+    margin-top: 10px;
+    width: 200px;
+    font-size: larger;
+}
+
+#register-button:hover, #avatar-button:hover{
+    color: #fff;
+    background-color: #392201;
+    border-color: #2a1900;
+}
+
+#register-button:not(:disabled):not(.disabled):active:focus, #register-button:not(:disabled):not(.disabled).active:focus, .show > #register-button.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(92, 56, 2, 0.5);
+}
+
+#avatar-button:not(:disabled):not(.disabled):active:focus, #avatar-button:not(:disabled):not(.disabled).active:focus, .show > #avatar-button.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(92, 56, 2, 0.5);
+}
+
+.username-error{
+    color: rgba(255, 0, 0, 0.727) !important;
+    padding: 5px !important;
+    position: relative; 
+    margin-top: 5px;
+    display: inline;
+}

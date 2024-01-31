@@ -1,0 +1,13 @@
+/* .baseIngredientOption {
+  padding: 5px;
+}
+
+.baseIngredientOption:hover {
+  background-color: #b08968;
+  color: white;
+}
+
+.baseIngredientOption + .baseRecipeOption {
+  border-top: 1px solid #5c3802;
+  width: 100%;
+} */

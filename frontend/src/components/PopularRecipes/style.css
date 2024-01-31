@@ -1,0 +1,7 @@
+.popular-recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 286px);
+  grid-gap: 1rem;
+  justify-content: space-between;
+}
+

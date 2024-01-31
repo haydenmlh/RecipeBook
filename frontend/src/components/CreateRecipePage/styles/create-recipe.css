@@ -1,0 +1,195 @@
+#main-content .form-control,
+#main-content .form-select{
+    /* color: #5c3802; */
+    border-color: #5c3802;
+}
+
+#main-content .form-control,
+#main-content .form-select,
+#main-content .form-control:focus,
+#main-content .form-select:focus{
+    box-shadow: none;
+    /* color: #5c3802; */
+    border: 1px solid #5c3802;
+}
+
+#main-content .input-group-text {
+    background-color: #e6ccb2;
+    /* background-color: #b08968; */
+    border: 1px solid #5c3802;
+    color: #5c3802;
+}
+
+#main-content .input-group .delete-btn {
+    border: 1px solid #dc3545;
+    color: white;
+    background-color: #dc3545;
+}
+
+#main-content .input-group .delete-btn:hover {
+    background-color: #b02a37;
+}
+
+.overall-info .form-label {
+    width: 100%;
+    border-bottom: 1px solid #5c3802;
+    color: #5c3802;
+}
+
+.diet-tag-container {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.diet-pill:not(:checked) + label.diet-pill {
+    color: #b08968;
+    background-color: white;
+    border: 1px solid #b08968;
+}
+
+    .diet-pill:checked + label.diet-pill{
+        background-color: #b08968;
+        color: white;
+    } 
+
+input.diet-pill:hover + label.diet-pill {
+    opacity: 0.5;
+}
+
+
+/* #vegan-pill:not(:checked) + .diet-pill.vegan-label {
+    color: #008000;
+    background-color: white;
+    border: 1px solid #008000;
+}
+
+    #vegan-pill:checked + .diet-pill.vegan-label {
+        background-color: #008000;
+        color: white;
+    }
+
+
+
+#gluten-free-pill:not(:checked) + .diet-pill.gluten-free-label {
+    color: #b08968;
+    background-color: white;
+    border: 1px solid #b08968;
+}
+
+    #gluten-free-pill:checked + .diet-pill.gluten-free-label {
+        background-color: #b08968;
+        color: white;
+    } 
+
+#shellfish-pill:not(:checked) + .diet-pill.shellfish-label {
+    color: #219ebc;
+    background-color: white;
+    border: 1px solid #219ebc;
+}
+
+    #shellfish-pill:checked + .diet-pill.shellfish-label {
+        background-color: #219ebc;
+        color: white;
+    }  */
+
+/* .vegan-label:hover, .gluten-free-label:hover, .shellfish-label:hover {
+    opacity: 0.5;
+} */
+
+#servings {
+    max-width: 100px;
+}
+
+.quantity {
+    max-width: 10%;
+}
+
+.unit {
+    max-width: 20%;
+}
+
+.step-delete-btn {
+    float: right;
+    /* padding: 0.1rem; */
+    color: #dc3545!important;
+    font-size: 1.5rem;
+}
+
+.step-delete-btn:hover {
+    color: #b02a37;
+}
+
+.step-time-input {
+    max-width: 300px;
+    margin: 1rem 0;
+}
+
+.delete-img-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-img-btn:hover {
+    background-color: #b02a37;
+    color: white;
+}
+
+.add-step-btn {
+    margin-top: 3rem;
+}
+
+.add-media {
+    background-color: #e5e5e5;
+    overflow: hidden;
+}
+
+.add-media-btn {
+    margin: auto;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+}
+
+.add-media-btn:hover {
+    color:#b08968
+}
+
+.media-list {
+    display: none;
+}
+
+.create-btn-container {
+    gap: 10px; 
+    margin: 5rem auto 3rem auto;
+}
+
+.baseRecipeDropdown {
+    position: absolute;
+    background-color: white;
+    display: flex;
+    width: calc(100% - var(--bs-gutter-x));
+    flex-direction: column;
+    border: 1px solid #5c3802;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.baseRecipeOption {
+    padding: 5px;
+}
+
+.baseRecipeOption:hover {
+    background-color: #b08968;
+    color: white;
+}
+
+.baseRecipeOption + .baseRecipeOption {
+    border-top: 1px solid #5c3802;
+    width: 100%;
+}

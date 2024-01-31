@@ -1,0 +1,45 @@
+.recipe-image-button {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  color: #5c3802;
+  background-color: rgb(230, 204, 178);
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-color: #5c3802!important;
+  border-radius: 0.375em;
+}
+
+.add-more {
+  border: 1px solid #ccc;
+  color: #5c3802;
+  background-color: rgb(230, 204, 178);
+  padding: 6px 12px;
+  margin-top: 15px;
+  margin-bottom: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-color: #5c3802!important;
+  border-radius: 0.375em;
+}
+
+.recipe-image {
+  margin-right: 10px;
+}
+
+.light-button {
+  color: #5c3802!important;
+  background-color: transparent!important;
+  border-color: #5c3802!important;
+} 
+
+.dark-button {
+  color: #5c3802!important;
+  background-color: rgb(230, 204, 178);
+  border-color: #5c3802!important;
+} 

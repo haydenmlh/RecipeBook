@@ -1,0 +1,24 @@
+.light-button {
+    color: #5c3802!important;
+    background-color: transparent!important;
+    border-color: #5c3802!important;
+} 
+
+.dark-button {
+    color: #5c3802!important;
+    background-color: rgb(230, 204, 178)!important;
+    border-color: #5c3802!important;
+} 
+
+.minus-btn, .plus-btn {
+    background-color: #5c3802;
+    color: white;
+    /* border-radius: 50%; */
+    font-size: 12px;
+    margin: 5px;
+}
+
+.minus-btn:hover, .plus-btn:hover {
+    background-color: #7f5539;
+    color: white;
+}

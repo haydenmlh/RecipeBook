@@ -1,0 +1,23 @@
+.ingredients-table-container{
+    width: min(30%, 470px);
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.recipes-container{
+    width: min(65%, 930px);
+    margin-top: 10px;
+}
+
+.shopping-list-title{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.shopping-list-recipes{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 286px);
+    grid-gap: 1rem;
+    justify-content: space-around;
+    padding: 10px, 10px;
+}
